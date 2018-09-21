@@ -2,7 +2,30 @@ body {
     background-image: url("../images/bg.jpg");
 }
 
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #c4ff4d;
+    color: #000000;
+    padding: 0.5% 0;
+    font-size: 1.2em;
+    border: 0;
+}
 
+.navbar-brand{
+    float: left;
+    min-height: 55px;
+    padding: 1px 15px 5px
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+    color: #000000;
+    background-color: #c4ff4d;
+}
+
+.navbar-inverse .navbar-nav li a{
+    color: #000000;
+}
 
 ul.sidenav {
     list-style-type: none;
@@ -58,6 +81,10 @@ div.content {
     }
 }
 
+.icon{
+    max-width: 300px;
+    margin: 1% auto;
+}
 
 .footer {
     position: fixed;
